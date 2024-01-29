@@ -1,0 +1,9 @@
+<div class="election-officer-dashboard-container">
+  <h1>Welcome to the Election Officer Dashboard</h1>
+  
+  <div class="election-controls">
+    <button (click)="startElection()">Start Election</button>
+    <button (click)="endElection()">End Election</button>
+    <p *ngIf="electionStatus">Election Status: {{ electionStatus }}</p>
+  </div>
+</div>

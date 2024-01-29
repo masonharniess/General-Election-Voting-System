@@ -1,0 +1,27 @@
+.voter-dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.voter-dashboard-container h1 {
+  color: #007bff;
+}
+
+.voter-dashboard-container p {
+  font-size: 1.1em;
+}
+
+.voter-dashboard-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.voter-dashboard-container li {
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+}
