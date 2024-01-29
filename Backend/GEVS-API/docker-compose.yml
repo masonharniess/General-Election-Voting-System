@@ -1,0 +1,10 @@
+﻿services:
+  gevs-api-2:
+    image: gevs-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
