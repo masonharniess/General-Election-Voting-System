@@ -1,5 +1,7 @@
 # General Election Voting System
 
+Note: this application does not run in current state due to missing files that need to be re-added.
+
 ## Table of Contents
 
 1. [Running the Application](#running-the-application)
